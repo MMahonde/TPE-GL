@@ -10,5 +10,5 @@ module com.tele.evluation.uma {
 	
 	exports com.tele.evluation.uma;
 	exports com.tele.evluation.uma.controlers;
-	exports com.tele.evluation.uma.model.view;
+	exports com.tele.evluation.uma.model.viewbn ;
 }
