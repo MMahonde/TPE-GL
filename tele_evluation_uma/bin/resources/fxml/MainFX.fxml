@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tele.evluation.uma.controlers.FXMainControler">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="400.0" styleClass="left-pan" stylesheets="@../css/FXMain.css" />
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="500.0">
+         <children>
+            <Label contentDisplay="CENTER" graphicTextGap="5.0" text="Connecter-Vous" textFill="#010a11">
+               <font>
+                  <Font size="36.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin>
+            </Label>
+            <Label styleClass="composer" stylesheets="@../css/FXMain.css" text="Pour composer">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="50.0" />
+               </VBox.margin>
+            </Label>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="0.0">
+               <children>
+                  <TextField prefHeight="25.0" prefWidth="355.0" promptText="Code de l'UE">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <PasswordField prefHeight="25.0" prefWidth="355.0" promptText="Votre matricule ">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </PasswordField>
+               </children>
+            </HBox>
+            <Button id="btnConnexion" fx:id="btnConnexion" mnemonicParsing="false" onAction="#ActionConnexionButton" prefHeight="35.0" prefWidth="355.0" styleClass="btn-connect" stylesheets="@../css/FXMain.css" text="Connecter" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </children>
+</HBox>

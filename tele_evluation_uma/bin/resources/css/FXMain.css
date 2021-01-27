@@ -1,0 +1,30 @@
+.left-pan{
+	-fx-background-color:blue;
+	-fx-pref-width : 400px;
+	-fx-min-width : 400px;
+}
+
+.log{
+	-fx-pref-width : 900px;
+	-fx-pref-heigth : 700px;
+	-fx-min-width : 900px;
+	-fx-min-heigth : 700px;
+}
+
+.lt{
+	-fx-pref-width : 500px;
+	-fx-min-width : 500px;
+}
+
+.btn-connect{
+	-fx-background-color:#63a8e0;
+}
+
+.btn-connect:hover{
+	-fx-background-color:#0584AF;
+}
+
+.composer{
+	-fx-font-weigth: italic;
+	-fx-font-style : italic;
+}
